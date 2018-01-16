@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @makeawishkid
- Sign out
- Watch 0
-  Star 0  Fork 0 makeawishkid/startpage
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-Branch: master Find file Copy pathstartpage/search.js
-d032c97  9 days ago
-@makeawishkid makeawishkid a
-1 contributor
-RawBlameHistory    
-98 lines (88 sloc)  3.3 KB
 String.prototype.replaceChars = function(character, replacement){
     var str = this;
     var a;
@@ -114,15 +96,3 @@ window.onload = function(){
 //
 // If you wish to change the number of characters in a "case", you need to change the line below, changing query.substr() to n+1, n being the number of characters.
 // This ensures that when you search for something, the whole of your idenfier and the space between the identifier and query are removed.
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
