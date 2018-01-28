@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
 	<style>
 	a {
 		border-radius: 5px;
-		color: #000000;
+		color: #e3c2b3;
 		margin: 10px;
 		padding: 3px;
 		text-decoration: none;
 	}
 	a:hover {
-		background-color: #D2D2D4;
+		background-color: #D2D2D2;
 	}
 	body {
-		background-color: #FFFFF;
+		background-color: #FFFFFF;
 		font-family: Arial, Helvetica, sans-serif;
 		margin: 40px auto;
 		max-width: 900px;
 	}
 	#card {
-		background-color:#D2D2D4;
+		background-color:#D2D2D2;
 		box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
 		display: flex;
 		height: 285px;
@@ -28,95 +27,102 @@
 	}
 	#content {
 		margin: -10px;
-                position: relative;
-                left: 188px;
-                top: 25px
+    position: relative;
+    left: 188px;
+    top: 25px
 	}
 	#title {
-		color: #000000;
+		color: #111111;
 		font-size: 1.5em;
 		margin-bottom: -31px;
-                margin-left: 110px;
+                margin-left: 170px;
 	}
 	#title2 {
- 		color: #000000;
+ 		color: #111111;
  		font-size: 1.7em;
  		margin-bottom: 18px;
                  margin-left: 81px;
 	}
         #searchbox{
-		width: 880px;
+		width: 886px;
 		height: 28px;
 		border: none;
 		border-radius: 6px;
 		padding-left: 15px;
 		text-align: left;
-		background-color: #D2D2D4;
-		color: #000000;
+		background-color: #D2D2D2;
+		color: #111111;
 		font-size: 20px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Malgun Gothic', sans-serif;
 		display: block;
 		margin: auto;
 		margin-top: 49px;
                 position: relative;
-                left: 0px;
+                left: -1px;
                 top: 335px;
 	        z-index: 1;
-					box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
-
           }
+
 .container {
     width: 100%;
-    height: 200px;
+    height: 120px;
      position: relative;
-     left: -80px;
+     left: -170px;
 		 top: 40px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 .inline {
-    display: inline-block;
 }
+
 .bookmark-container {
-    display: flex;
+	  display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 50%;
+    width: 60%;
     margin: 1em 0em;
 }
 .bookmark-set{
     padding: 1em;
     background-color: #FFFFFF;
     border-radius: 7px;
-    font-family: "Open Sans";
+    font-family: "Roboto Mono";
     font-size: .85rem;
-    width: 52%;
-    height: 180px;
+    width: 80%;
+    height: 12em;
     margin: 0em .5em;
-		left: 155px;
-		top: -15px;
-		position:relative;
+		left: 85px;
+		position: relative;
 }
 .bookmark-inner-container {
-    height: 80%;
+    height: 90%;
     vertical-align: top;
 }
 .bookmark-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #000000;
+    color: #111111;
     margin: 0em 0em .35em 0em;
 }
 .bookmark {
     text-decoration: none;
-    color: #000000;
-    display:block;
+    color: #111111;
+		display: block;
     margin: .5em 0em;
 }
 .bookmark:hover {
-    color: #000000;
+    color: #fff;
 }
+
+
+.clock {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: "Roboto Mono";
+    color: #fff;
+    margin-bottom: .25em;
+	}
+
+
+
 	</style>
 </head>
 <body>
@@ -124,7 +130,7 @@
     <div id="card">
       		<img id="waifu" src="https://i.imgur.com/6Hj03vM.png">
 		<div id="content">
-    <div id="title">Hello there.</div>
+    <div id="title">Hi!</div>
       <div class="container">
 			<table>
 			<tbody>
@@ -168,12 +174,18 @@
 								<a class="bookmark" href="https://boards.4chan.org/wg/" target="_blank">/wg/</a>
 								<a class="bookmark" href="https://boards.4chan.org/wsg/" target="_blank">/wsg/</a>
               </div>
+						</div>
+							<div class="bookmark-set">
+									<div class="bookmark-title">Crypto</div>
+									<div class="bookmark-inner-container">
+									<a class="bookmark" href="https://coinmarketcap.com" target="_blank">CMC</a>
+									<a class="bookmark" href="https://www.binance.com/tradeDetail.html?symbol=VEN_BTC" target="_blank">Binance</a>
+									<a class="bookmark" href="https://www.reddit.com/r/litecoin/" target="_blank">LTC</a>
+									<a class="bookmark" href="https://www.reddit.com/r/Vechain/" target="_blank">VEN</a>
+									<a class="bookmark" href="https://www.reddit.com/r/Stellar/" target="_blank">XLM</a>
+								</div>
 
 			</tbody>
-			<div class="container">
-
-							 <div class="row">
-									 <div class="inline"></div>
 
 							 </div>
 			</table>
